@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 @app.route('/about', methods=['GET'])
-def get_data():
+def get_info():
     data = {
         "gender": "Female",
         "github url": "github.com/Chiomcee",
